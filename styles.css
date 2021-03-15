@@ -47,6 +47,40 @@ ul {
   margin: 30px auto;
 }
 
+.clear {
+  clear: both;
+}
+
+#mainContainer {
+  margin: 0;
+  border: solid 1px #7b76ab;
+}
+
+@media all and (min-width: 601px) {
+  #mainContainer {
+    max-width: 950px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px -5px #362f78;
+    overflow: hidden;
+  }
+}
+
+section {
+  padding: 20px 40px;
+  border-bottom: dashed 1px #7b76ab;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 10px;
+}
+
+article {
+  width: 100%;
+}
+
+
 /*TOP SECTION STYLE */
 #mainDetails {
   background-color: #362f78;
