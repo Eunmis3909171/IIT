@@ -160,3 +160,28 @@ article {
     float: right;
   }
 }
+
+
+/* MAIN SECTION STYLES */
+
+#mainArea {
+  clear: both;
+  background-color: #f0f4f9;
+  color: #4b535e;
+  padding-top: 20px;
+}
+
+#mainArea img {
+  max-width: 100%;
+}
+
+@media all and (min-width: 601px) {
+  #mainArea .title {
+    float: left;
+    width: 25%;
+  }
+  #mainArea .description {
+    float: right;
+    width: 75%;
+  }
+}
