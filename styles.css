@@ -47,6 +47,82 @@ ul {
   margin: 30px auto;
 }
 
-#mainArea .description {
+/*TOP SECTION STYLE */
+#mainDetails {
+  background-color: #362f78;
+  color: white;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.name, .contactDetails {
+  display: block;
+  width: 100%;
+}
+
+.headshot {
+  display: none;
+}
+
+.headshot img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  text-align: center;
+}
+
+.name h1 {
+  color: white;
+  margin: 0px;
+  font-size: 50px
+}
+
+.name p {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.contactDetails {
+  text-align: center;
+  font-size: 14px;
+}
+
+.contactDetails ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.contactDetails a {
+  color: white;
+}
+
+.contactDetails a:hover {
+  text-decoration: none;
+}
+
+.contactDetails ul li {
+  margin-bottom: 10px;
+}
+
+@media all and (min-width: 601px) {
+  .headshot {
+    width: 135px;
+    height: 135px;
+    overflow: hidden;
+    display: inline;
+    text-align: center;
+  }
+  .headshot, .name, .contactDetails {
+    float: left;
+    padding: 20px;
+    width: auto;
+    text-align: left;
+  }
+  .contactDetails {
     float: right;
-    width: 75%;
+  }
+}
