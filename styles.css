@@ -1,3 +1,5 @@
+/* COMMON STYLES */
+
 body {
   font-family: arial;
   background-color: #b0c4de;
@@ -80,8 +82,8 @@ article {
   width: 100%;
 }
 
+/* TOP SECTION STYLES */
 
-/*TOP SECTION STYLE */
 #mainDetails {
   background-color: #362f78;
   color: white;
@@ -160,7 +162,6 @@ article {
     float: right;
   }
 }
-
 
 /* MAIN SECTION STYLES */
 
