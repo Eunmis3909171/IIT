@@ -46,3 +46,7 @@ ul {
   font-size: 16px;
   margin: 30px auto;
 }
+
+#mainArea .description {
+    float: right;
+    width: 75%;
