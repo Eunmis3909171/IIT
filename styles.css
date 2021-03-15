@@ -1,33 +1,48 @@
 body {
   font-family: arial;
-  background-color: lightblue;
-  margin: 80px;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-  margin: 10px;
-  font-size: 50px
+  background-color: #b0c4de;
+  margin: 0;
 }
 
 p {
-  font-size: 20px;
-    margin: 30px;
-
-
+  font-size: 16px;
+  line-height: 22px;
 }
-h2 {color: purple;
-  margin: 30px;
-  font-size: 30px
 
+a {
+  color: #2f435e;
 }
-h3 {color: purple;
-  margin: 30px;
-  font-size: 25px
 
+a:visited {
+  color: #8a916c
 }
+
+h2, h3 {
+  color: #362f78;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  color: #874B6A;
+}
+
+h4 {
+  font-size: 18px;
+  color: #874B6A;
+  font-style: italic;
+}
+
+h5 {
+  font-size: 16px;
+  color: #3C4856;
+  font-style: italic
+}
+
 ul {
-  font-size: 20px;
-    margin: 30px;
-    }
+  font-size: 16px;
+  margin: 30px auto;
+}
